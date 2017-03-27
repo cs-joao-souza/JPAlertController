@@ -65,7 +65,7 @@ JPAlertController is available through CocoaPods. To install it, simply add the 
 
 ```
 pod 'JPAlertController'
-``
+```
 
 ## Manual
 
