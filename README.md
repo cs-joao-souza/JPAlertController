@@ -65,16 +65,17 @@ JPAlertController is available through CocoaPods. To install it, simply add the 
 
 ```
 pod 'JPAlertController'
-```
+``
 
 ## Manual
 
-Just copy and paste the files inside source code files into your project.
+Just copy and paste the files inside source code folder into your project.
 
 # Todo
 
 * Add separators</br>
 * Let it be able to customize the background<br>
+* Let it be able to customize the viewController's background<br>
 
 # License
 
