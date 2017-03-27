@@ -10,8 +10,7 @@ Using JPAlertController you can customize every text in your alert just sending 
 
 # Usage
 
-It's usage is very similar to UIAlertController. The difference is that is possible to pass options to configure your text as you want.</br>
-These options need to be NSAttributedString attributes. So is possible to use:</br>
+It's usage is very similar to UIAlertController. The difference is that is possible to pass options to configure your text as you want. These options need to be NSAttributedString attributes. So is possible to use:</br>
 * NSFontAttributeName</br>
 * NSParagraphStyleAttributeName</br>
 * NSForegroundColorAttributeName</br>
@@ -57,3 +56,24 @@ alert.addAction(action: cancelAction)
     
 self.present(alert, animated: true, completion: nil)
 ```
+
+# Installation
+
+## Cocoapods
+
+JPAlertController is available through CocoaPods. To install it, simply add the following line to your Podfile:
+
+pod 'JPAlertController'
+
+## Manual
+
+Just copy and paste the files inside source code files into your project.
+
+#Todo
+
+* Add separators</br>
+* Let it be able to customize the background<br>
+
+#License
+
+JPAlertController is available under the MIT license. See the LICENSE file for more info.
