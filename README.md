@@ -63,17 +63,19 @@ self.present(alert, animated: true, completion: nil)
 
 JPAlertController is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
+```
 pod 'JPAlertController'
+```
 
 ## Manual
 
 Just copy and paste the files inside source code files into your project.
 
-#Todo
+# Todo
 
 * Add separators</br>
 * Let it be able to customize the background<br>
 
-#License
+# License
 
 JPAlertController is available under the MIT license. See the LICENSE file for more info.
