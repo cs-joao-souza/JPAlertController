@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JPAlertController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuV-4h-d2c">
+                                <rect key="frame" x="150" y="95" width="75" height="30"/>
+                                <state key="normal" title="Show Alert"/>
+                                <connections>
+                                    <action selector="showAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5e1-0Y-lgM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdH-fJ-dWT">
+                                <rect key="frame" x="92.5" y="145" width="189" height="30"/>
+                                <state key="normal" title="Show Modal ViewController"/>
+                                <connections>
+                                    <segue destination="P8R-s8-D81" kind="presentation" id="Bc8-e7-5VL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDs-3i-wNu">
+                                <rect key="frame" x="81" y="195" width="212" height="30"/>
+                                <state key="normal" title="Show Alert With Three Buttons"/>
+                                <connections>
+                                    <action selector="showAlertWithThreeButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="25E-jg-Ch2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uuV-4h-d2c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="0Oj-BH-1ct"/>
+                            <constraint firstItem="aDs-3i-wNu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PIH-BO-mTg"/>
+                            <constraint firstItem="aDs-3i-wNu" firstAttribute="top" secondItem="OdH-fJ-dWT" secondAttribute="bottom" constant="20" id="WBo-9W-DRU"/>
+                            <constraint firstItem="OdH-fJ-dWT" firstAttribute="top" secondItem="uuV-4h-d2c" secondAttribute="bottom" constant="20" id="bbo-YE-Ag1"/>
+                            <constraint firstItem="uuV-4h-d2c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dNT-0T-w0d"/>
+                            <constraint firstItem="OdH-fJ-dWT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zMu-Kx-xTL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="VY2-ow-Jqe">
+            <objects>
+                <viewController id="TiC-FP-8mj" customClass="ModalViewController" customModule="JPAlertController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZZB-lu-GpX"/>
+                        <viewControllerLayoutGuide type="bottom" id="rFA-uD-YBx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wxQ-R9-uyI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVj-g1-fet">
+                                <rect key="frame" x="119" y="159" width="137" height="30"/>
+                                <state key="normal" title="Show Alert In Modal"/>
+                                <connections>
+                                    <action selector="showAlert:" destination="TiC-FP-8mj" eventType="touchUpInside" id="d9o-CL-YHA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NVj-g1-fet" firstAttribute="top" secondItem="ZZB-lu-GpX" secondAttribute="bottom" constant="95" id="2s9-f4-DIx"/>
+                            <constraint firstItem="NVj-g1-fet" firstAttribute="centerX" secondItem="wxQ-R9-uyI" secondAttribute="centerX" id="eev-7y-fc5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wzn-9g-94j">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="rdd-lg-Zwj">
+                            <connections>
+                                <action selector="close:" destination="TiC-FP-8mj" id="E9m-jl-wLz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ib7-g9-bh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1652" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="huW-HJ-AbB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P8R-s8-D81" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U6F-LE-SaV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TiC-FP-8mj" kind="relationship" relationship="rootViewController" id="YUE-Ne-s3R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MuH-xo-EsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712.79999999999995" y="136.28185907046478"/>
+        </scene>
+    </scenes>
+</document>
