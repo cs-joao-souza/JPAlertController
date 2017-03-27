@@ -11,25 +11,25 @@ Using JPAlertController you can customize every text in your alert just sending 
 # Usage
 
 It's usage is very similar to UIAlertController. The difference is that is possible to pass options to configure your text as you want.</br>
-These options need to be NSAttributedString attributes. So is possible do use for example</br>
-*NSFontAttributeName
-*NSParagraphStyleAttributeName
-*NSForegroundColorAttributeName
-*NSBackgroundColorAttributeName
-*NSLigatureAttributeName
-*NSKernAttributeName
-*NSStrikethroughStyleAttributeName
-*NSUnderlineStyleAttributeName
-*NSStrokeColorAttributeName
-*NSStrokeWidthAttributeName
-*NSShadowAttributeName
-*NSTextEffectAttributeName
-*NSAttachmentAttributeName
-*NSLinkAttributeName
-*NSBaselineOffsetAttributeName
-*NSBaselineOffsetAttributeName
-*...
-*and so on.
+These options need to be NSAttributedString attributes. So is possible to use:</br>
+* NSFontAttributeName</br>
+* NSParagraphStyleAttributeName</br>
+* NSForegroundColorAttributeName</br>
+* NSBackgroundColorAttributeName</br>
+* NSLigatureAttributeName</br>
+* NSKernAttributeName</br>
+* NSStrikethroughStyleAttributeName</br>
+* NSUnderlineStyleAttributeName</br>
+* NSStrokeColorAttributeName</br>
+* NSStrokeWidthAttributeName</br>
+* NSShadowAttributeName</br>
+* NSTextEffectAttributeName</br>
+* NSAttachmentAttributeName</br>
+* NSLinkAttributeName</br>
+* NSBaselineOffsetAttributeName</br>
+* NSBaselineOffsetAttributeName</br>
+* ...</br>
+* and so on.</br>
 
 
 ```swift
