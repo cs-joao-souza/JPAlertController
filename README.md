@@ -28,7 +28,14 @@ It's usage is very similar to UIAlertController. The difference is that is possi
 * NSBaselineOffsetAttributeName</br>
 * NSBaselineOffsetAttributeName</br>
 * ...</br>
-* and so on.</br>
+* and so on.</br></br>
+
+```
+Swift 3
+XCode 8
+
+```
+</br>
 
 
 ```swift
