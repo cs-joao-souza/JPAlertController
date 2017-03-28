@@ -230,9 +230,7 @@ class JPAlertController: UIViewController {
       self.viewBackground.addConstraints([topConstraintFirstButton, leftConstraintFirstButton, rightConstraintFirstButton, bottomConstraintFirstButton])
       buttonActionFirst.addConstraint(heightConstraintFirstButton)
       
-      
       // SECOND BUTTON
-      
       
       let heightConstraintSecondButton = NSLayoutConstraint(item: buttonActionSecond, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: kButtonHeight)
       

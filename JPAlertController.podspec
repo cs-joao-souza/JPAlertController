@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JPAlertController"
   s.version      = "1.0.0"
-  s.summary      = "An AlertController all customizable written in Swift."
+  s.summary      = "An AlertController all customizable written in Swift 3."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+					  "An AlertController all customizable written in Swift 3."
                    DESC
 
   s.homepage     = "https://github.com/cs-joao-souza/JPAlertController"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JPAlertController/Source Code/*.swift'"
+  s.source_files  = "JPAlertController/Source Code/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
