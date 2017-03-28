@@ -8,6 +8,12 @@ Using JPAlertController you can customize every text in your alert just sending 
 ![ScreenShot](https://raw.github.com/cs-joao-souza/JPAlertController/master/ScreenShot1.png)
 ![ScreenShot](https://raw.github.com/cs-joao-souza/JPAlertController/master/ScreenShot2.png)
 
+# Requirements
+
+* iOS 9.0+</br> 
+* Xcode 8.1+</br>
+* Swift 3.0+</br>
+
 # Usage
 
 It's usage is very similar to UIAlertController. The difference is that is possible to pass options to configure your text as you want. These options need to be NSAttributedString attributes. So is possible to use:</br>
@@ -28,14 +34,7 @@ It's usage is very similar to UIAlertController. The difference is that is possi
 * NSBaselineOffsetAttributeName</br>
 * NSBaselineOffsetAttributeName</br>
 * ...</br>
-* and so on.</br></br>
-
-```
-Swift 3
-XCode 8
-
-```
-</br>
+* and so on.</br>
 
 
 ```swift
